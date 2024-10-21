@@ -1,0 +1,2 @@
+ - Import database CalendarAppDB/CalendarAppDB.bacpac
+ - Open CalendarApp.sln and run application
