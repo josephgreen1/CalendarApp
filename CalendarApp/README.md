@@ -1,0 +1,2 @@
+- Run CalendarAppDB.publish.sql in SQLCMD mode (ALT+Q+M from the keyboard) to create database
+- Open and run CalendarApp.sln 

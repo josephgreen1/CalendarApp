@@ -1,0 +1,41 @@
+Needs:
+Pages
+- Start page
+- Login page (or dropdown? but separate registration page at least)
+- Calendar page (open on current day, save user settings, cookie)
+- Account settings page
+- Forgot login details reset page
+
+Functions
+- Simple layout
+- Calendar sort (day, working week, week, month etc)
+- Logout
+- Account system (just username & password?)
+- Password hashing
+- Delete account
+- Big event view
+- Time / duration of event
+- Today button
+- Search function
+- Accessibility colour scheme / keep in mind for functions 
+- Use flex box, keep in mind mobile etc
+- Normalise database tables
+
+
+Wants:
+Functions
+- User email login (email / password reminded then required)
+- Dark & light mode
+- Email event reminder (will have to check for an api for this, may cost)
+- Bot / ddos protection (cloudflare etc, may cost)
+- Hosting (Microsoft may offer free, but local host may be fine if able to integrate features)
+- Days until event
+- Pin specific events
+- Export to other calendars (ics?)
+- Accessibility themes (dyslexia custom font?)
+- Other language support?
+- Other timezone / location support (including other date / time formats eg US MM/DD/YYYY)
+- Region specific event support eg Eid, Diwali, 4th July
+- Ad support?
+- Terms & conditions page?
+- Start week on Monday or Sunday support

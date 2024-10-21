@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            events: @Html.Raw(ViewData["Events"]),
+            resources: @Html.Raw(ViewData["Resources"]),
+            headerToolbar: {
+                left: 'today prev,next',
+                center: 'title',
+                right: 'timeGridWeek,dayGridMonth,listMonth'
+            },
+        });
+        calendar.render();
+      });
+
+</script>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To The Calendar App!</h1>
+</div>
+<br>
+<div class="row justify-content-around">
+    <div class="col-md-3">
+        <a href="/Event">
+            <button type="button" class="btn btn-primary btn-block">Events</button>
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a href="/MyCalendar">
+            <button type="button" class="btn btn-primary btn-block">View Calendar</button>
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a href="/Location">
+            <button type="button" class="btn btn-primary btn-block">Locations</button>
+        </a>
+    </div>
+</div>
